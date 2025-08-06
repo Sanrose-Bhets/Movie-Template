@@ -642,6 +642,22 @@ select:not([multiple]) {
     opacity: 1; /* Firefox */
 }
 
+.video-title {
+  font-weight: bold;
+  text-align: left;
+  margin-top: 8px;
+  margin-bottom: 4px;
+  font-size: 1rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #222;
+}
+
+.video-meta-first {
+  margin-top: 12px;
+}
+
 @media (max-width: 991px) {
     .navbar-collapse {
         position: fixed;
