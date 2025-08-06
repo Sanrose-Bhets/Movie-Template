@@ -651,7 +651,21 @@ select:not([multiple]) {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
-  color: #222;
+  color: white;
+}
+
+.video-description {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.4;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 2.8em;
 }
 
 .video-meta-first {
