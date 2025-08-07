@@ -9,4 +9,5 @@ Features
  Technologies Used
 Frontend: HTML, CSS, JavaScript
 Contributing
-Each member did one page where 
+umang did the landing page 
+sanrose did the
