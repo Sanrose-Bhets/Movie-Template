@@ -642,6 +642,36 @@ select:not([multiple]) {
     opacity: 1; /* Firefox */
 }
 
+.video-title {
+  font-weight: bold;
+  text-align: left;
+  margin-top: 8px;
+  margin-bottom: 4px;
+  font-size: 1rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: white;
+}
+
+.video-description {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.4;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 2.8em;
+}
+
+.video-meta-first {
+  margin-top: 12px;
+}
+
 @media (max-width: 991px) {
     .navbar-collapse {
         position: fixed;
