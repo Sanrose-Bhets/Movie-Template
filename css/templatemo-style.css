@@ -685,6 +685,21 @@ select:not([multiple]) {
   margin-top: 12px;
 }
 
+.movie-roster-heading {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 18px;
+}
+.movie-roster-heading::after {
+  content: '';
+  display: block;
+  margin-top: 8px;
+  width: 35%;
+  height: 3px;
+  background: #3498db;
+  border-radius: 2px;
+}
+
 @media (max-width: 991px) {
     .navbar-collapse {
         position: fixed;
