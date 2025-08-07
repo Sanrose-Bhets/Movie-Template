@@ -211,6 +211,19 @@ a:hover { color:#009999; }
 .tm-mb-50 { margin-bottom: 50px; }
 .tm-mb-74 { margin-bottom: 74px; }
 .tm-mb-90 { margin-bottom: 90px; }
+
+/* Additional spacing for gallery rows */
+.tm-gallery {
+    margin-bottom: 120px !important;
+}
+
+.tm-gallery .row {
+    margin-bottom: 40px;
+}
+
+.tm-gallery .row:last-child {
+    margin-bottom: 0;
+}
 .tm-text-primary { color: #009999; }
 .tm-text-secondary { color: #CC6699; }
 a.tm-text-primary:hover { color:#666666; }
